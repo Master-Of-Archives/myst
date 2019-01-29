@@ -1,0 +1,141 @@
+
+
+
+
+@font-face {
+    font-family: 'rune';
+    src: url('https://www.dropbox.com/s/hpdy0rq6qgwo353/rune-webfont.woff2?raw=1') format('woff2'),
+    url('https://www.dropbox.com/s/p8yvfbad72mx3h5/rune-webfont.woff?raw=1') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gate{
+ height: 40%;
+ width: 100%;
+ position: absolute;
+ top: 30%;
+ left: 0%;
+ font-size: 10vh;
+ letter-spacing: 25vw;
+ text-align: center;
+ font-family: rune;
+
+ overflow: hidden;
+}
+
+body{
+ background-color: #cccccc; 
+}
+
+#start{
+height: 50%;
+width: 100%;
+position: fixed;
+top: 10%;
+left: 0%;
+z-index: 1;
+font-size: 20vh;
+padding: 20% 2% 0% 2%;
+font-family: rune;
+overflow: hidden;
+
+
+-webkit-transition: all .7s ease;
+-moz-transition: all .7s ease;
+-ms-transition: all .7s ease;
+-o-transition: all .7s ease;
+transition: all .7s ease;
+}
+
+#start-text{
+ width: 95%;
+ text-align: center;
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+}
+
+#start:hover .rune{
+
+
+-webkit-transition: all .7s ease;
+-moz-transition: all .7s ease;
+-ms-transition: all .7s ease;
+-o-transition: all .7s ease;
+transition: all .7s ease;
+}
+
+#start:active{
+-webkit-transition: all .1s ease;
+-moz-transition: all .1s ease;
+-ms-transition: all .1s ease;
+-o-transition: all .1s ease;
+transition: all .1s ease;
+}
+
+
+.rune{
+  
+ animation-name: float;
+ animation-duration: 30s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in-out;
+ margin: -4% 0% 0% 0%;
+ -webkit-transition: all .7s ease;
+-moz-transition: all .7s ease;
+-ms-transition: all .7s ease;
+-o-transition: all .7s ease;
+transition: all .7s ease;
+}
+
+.rune:hover{
+ text-shadow: 0 0 5px #ff00ff; 
+ -webkit-transition: all .7s ease;
+-moz-transition: all .7s ease;
+-ms-transition: all .7s ease;
+-o-transition: all .7s ease;
+transition: all .7s ease;
+}
+
+#rune1{
+  animation-delay: 4s;
+  animation-duration: 35s;
+}
+
+#rune2{
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+
+#rune3{
+  animation-delay: 7s;
+  animation-duration: 46s;
+}
+
+#rune4{
+  animation-delay: 8s;
+  animation-duration: 38s;
+}
+
+
+
+
+
+@keyframes float{
+  0%{margin: -4% 0% 0% 0%;
+  }
+  25%{margin: -3% 0% 0% -1%;
+  }
+  40%{margin: -5% -2% 0% 0%;
+  }
+  56%{margin: -4% 0% -4% 0%;
+  }
+  70%{margin: -0% -2% -4% -1%;
+  }
+  100%{margin: -4% 0% 0% 0%;
+  }
+  
+}
+
+

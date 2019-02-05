@@ -1,5 +1,5 @@
   var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-  var mana = ["#FF0000", "#00FF00", "#0000FF", "#FF00FF", "#FFFF00"];
+  var mana = ["#FF0000", "#00FF00", "#0000FF", "#FF00FF", "#FFFF00", "#00FFFF", "#6600CC", "#FF0077"];
   var crypt1;
   var crypt2;
   var crypt3;
@@ -61,7 +61,7 @@ shadow2 = mana[Math.floor(Math.random() * mana.length)];
 shadow3 = mana[Math.floor(Math.random() * mana.length)];
 shadow4 = mana[Math.floor(Math.random() * mana.length)];
 shadow5 = mana[Math.floor(Math.random() * mana.length)];
-  sigil.style.textShadow = "-1px 0px 0px #FFFFFF, 1px 0px 0px #FFFFFF, 0px -1px 0px #FFFFFF, 0px 1px 0px #FFFFFF, -20px 0px 100px " + shadow1 +", 20px 0px 100px " + shadow2 +", 0px 20px 100px " + shadow3  +", 0px -20px 100px " + shadow4  +", 20px 0px 100px " + shadow5;
+  sigil.style.textShadow = "-1px 0px 0px #ffffff, 1px 0px 0px #ffffff, 0px -1px 0px #ffffff, 0px 1px 0px #ffffff, -20px 0px 100px " + shadow1 +", 20px 0px 100px " + shadow2 +", 0px 20px 100px " + shadow3  +", 0px -20px 100px " + shadow4  +", 20px 0px 100px " + shadow5;
 
    
    

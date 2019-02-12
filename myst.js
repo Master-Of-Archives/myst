@@ -34,8 +34,8 @@ function sundial4(){
 
 function callOfTheAncients(){
   var pr = document.getElementById("fgpr").value;
-  if(pr == "Zendikar"){
-    document.getElementById("wisdom").innerHTML = "Wisdom of the ancients revealed"
+  if(pr == "Futanari"){
+    document.getElementById("wisdom").innerHTML = "<center>Function execution successful. Thank you for assisting in the creation of this profile.<br>  <button onclick="slumber()" class="herald">Close</button"></center>"
     document.getElementById("wisdom").style.opacity = "1.0";
     document.getElementById("wisdom").style.zIndex = "10";
   }

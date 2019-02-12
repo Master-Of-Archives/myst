@@ -1,4 +1,4 @@
-  var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+  var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   var mana = ["#FF0000", "#00FF00", "#0000FF", "#FF00FF", "#FFFF00", "#00FFFF", "#6600CC", "#FF0077"];
   var crypt1;
   var crypt2;
@@ -31,6 +31,7 @@ function sundial4(){
     crypt4 = alpha[Math.floor(Math.random() * alpha.length)];
     document.getElementById("rune4").innerHTML = "<a href='#fourth-gate'>" + crypt4 +"</a>";;  
 }
+
 function callOfTheAncients(){
   var pr = document.getElementById("fgpr").value;
   if(pr == "Zendikar"){
@@ -40,9 +41,15 @@ function callOfTheAncients(){
   }
   else{
     document.getElementById("wisdom").innerHTML ="No such widsom"
+    document.getElementById("wisdom").style.opacity = "1.0";
+    document.getElementById("wisdom").style.zIndex = "10";
   }
 }
 
+function slumber(){
+    document.getElementById("wisdom").style.opacity = "0.0";
+    document.getElementById("wisdom").style.zIndex = "-1";
+}
 
  function power(glyph){
    var sigil;

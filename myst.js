@@ -35,6 +35,8 @@ function callOfTheAncients(){
   var pr = document.getElementById("fgpr").value;
   if(pr == "Zendikar"){
     document.getElementById("wisdom").innerHTML = "Wisdom of the ancients revealed"
+    document.getElementById("wisdom").style.opacity = "1.0;"
+    document.getElementById("wisdom").style.z-index = "10;"
   }
   else{
     document.getElementById("wisdom").innerHTML ="No such widsom"

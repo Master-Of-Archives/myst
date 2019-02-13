@@ -39,7 +39,7 @@ function callOfTheAncients(){
     document.getElementById("wisdom").style.opacity = "1.0";
     document.getElementById("wisdom").style.zIndex = "10";
   }
-  else if(pr == Myst){
+  else if(pr == "Myst"){
     document.getElementById("wisdom").innerHTML = '<center>This is a test of an alternate password.<br><br> <button onclick="slumber()" class="herald">Close</button"></center>';
     document.getElementById("wisdom").style.opacity = "1.0";
     document.getElementById("wisdom").style.zIndex = "10";   

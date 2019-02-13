@@ -35,12 +35,17 @@ function sundial4(){
 function callOfTheAncients(){
   var pr = document.getElementById("fgpr").value;
   if(pr == "Futanari"){
-    document.getElementById("wisdom").innerHTML = '<center>Function execution successful. Thank you for assisting in the creation of this profile.<br>  <button onclick="slumber()" class="herald">Close</button"></center>';
+    document.getElementById("wisdom").innerHTML = '<center>Function execution successful. Thank you for assisting in the creation of this profile.<br><br>  <button onclick="slumber()" class="herald">Close</button"></center>';
     document.getElementById("wisdom").style.opacity = "1.0";
     document.getElementById("wisdom").style.zIndex = "10";
   }
+  else if(pr == Myst){
+    document.getElementById("wisdom").innerHTML = '<center>This is a test of an alternate password.<br><br> <button onclick="slumber()" class="herald">Close</button"></center>';
+    document.getElementById("wisdom").style.opacity = "1.0";
+    document.getElementById("wisdom").style.zIndex = "10";   
+  }
   else{
-    document.getElementById("wisdom").innerHTML ="No such widsom"
+    document.getElementById("wisdom").innerHTML ='<br><center>You call the word of power, but you are greeted only by silence in response.<br><br><br> <button onclick="slumber()" class="herald">Close</button"></center>';
     document.getElementById("wisdom").style.opacity = "1.0";
     document.getElementById("wisdom").style.zIndex = "10";
   }

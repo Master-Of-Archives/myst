@@ -45,7 +45,7 @@ function callOfTheAncients(){
     document.getElementById("wisdom").style.zIndex = "10";   
   }
    else if(pr == "penis"){
-    document.getElementById("wisdom").innerHTML = '<center>This is in place so that Avaline no longer needs to be upset at the lack of phallic passwords.<br><br> <button onclick="slumber()" class="herald">Close</button"></center>';
+    document.getElementById("wisdom").innerHTML = '<center>This is in place so that Aveline no longer needs to be upset at the lack of phallic passwords.<br><br> <button onclick="slumber()" class="herald">Close</button"></center>';
     document.getElementById("wisdom").style.opacity = "1.0";
     document.getElementById("wisdom").style.zIndex = "10";   
   }
